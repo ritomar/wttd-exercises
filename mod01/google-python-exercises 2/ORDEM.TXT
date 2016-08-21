@@ -1,0 +1,7 @@
+01 -> basic/string1.py
+02 -> basic/list1.py
+03 -> basic/string2.py
+04 -> basic/list2.py
+05 -> basic/mimic.py
+06 -> basic/wordcount.py
+
