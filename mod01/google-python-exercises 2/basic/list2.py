@@ -15,8 +15,8 @@
 # modify the passed in list.
 def remove_adjacent(nums):
     i = 0
-    while i < len(nums):
-        while nums.count(nums[i]) > 1:
+    while i < len(nums) - 1:
+        while (i < len(nums) - 1) and (nums[i] == nums[i+1]):
             del nums[i]
         i += 1
     return nums
@@ -65,6 +65,7 @@ def test(got, expected):
 def main():
     print('remove_adjacent')
     test(remove_adjacent([1, 2, 2, 3]), [1, 2, 3])
+    test(remove_adjacent([1, 2, 3, 2, 3]), [1, 2, 3, 2, 3])
     test(remove_adjacent([2, 2, 3, 3, 3]), [2, 3])
     test(remove_adjacent([]), [])
 
