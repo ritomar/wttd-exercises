@@ -42,7 +42,15 @@ def extract_names(filename):
     ['2006', 'Aaliyah 91', Aaron 57', 'Abagail 895', ' ...]
     """
     # +++your code here+++
-    return
+
+    baby_names = []
+
+    with open(filename, 'r') as f:
+
+        for line in f.read():
+        words = s.split()
+
+    return baby_names
 
 
 def main():

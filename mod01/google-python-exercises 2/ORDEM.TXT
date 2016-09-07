@@ -4,4 +4,6 @@
 04 -> basic/list2.py
 05 -> basic/mimic.py
 06 -> basic/wordcount.py
-
+07 babynames/
+08 logpuzzle/
+09 copyspecial/
